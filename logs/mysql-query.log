@@ -1,0 +1,467 @@
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T16:55:47.860546+09:00	    7 Connect	
+2020-03-31T16:55:47.861431+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T16:55:47.867495+09:00	    7 Quit	
+2020-03-31T16:55:50.166662+09:00	    8 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T16:55:50.167728+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T16:55:50.171861+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T16:57:07.559621+09:00	    7 Connect	
+2020-03-31T16:57:07.561103+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T16:57:07.570853+09:00	    7 Quit	
+2020-03-31T16:57:08.290255+09:00	    8 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T16:57:08.291212+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T16:57:08.295432+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T16:57:51.908707+09:00	    7 Connect	
+2020-03-31T16:57:51.910598+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T16:57:51.923653+09:00	    7 Quit	
+2020-03-31T16:57:53.588951+09:00	    8 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T16:57:53.589626+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T16:57:53.593184+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T17:01:12.396783+09:00	    7 Connect	
+2020-03-31T17:01:12.397339+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T17:01:12.401482+09:00	    7 Quit	
+2020-03-31T17:01:12.562018+09:00	    8 Connect	wordpress@172.21.0.3 on  using TCP/IP
+2020-03-31T17:01:12.562743+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T17:01:12.568467+09:00	    8 Quit	
+2020-03-31T17:01:20.754751+09:00	    9 Connect	wordpress@172.21.0.3 on  using TCP/IP
+2020-03-31T17:01:20.755829+09:00	    9 Query	SET NAMES utf8mb4
+2020-03-31T17:01:20.757135+09:00	    9 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:01:20.757813+09:00	    9 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:01:20.758711+09:00	    9 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:01:20.759924+09:00	    9 Init DB	wordpress
+2020-03-31T17:01:20.766758+09:00	    9 Query	SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+2020-03-31T17:01:20.768549+09:00	    9 Query	SELECT option_name, option_value FROM wp_options
+2020-03-31T17:01:20.769725+09:00	    9 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:01:20.770727+09:00	    9 Query	DESCRIBE wp_users
+2020-03-31T17:01:20.772257+09:00	    9 Query	DESCRIBE wp_usermeta
+2020-03-31T17:01:20.773061+09:00	    9 Query	DESCRIBE wp_posts
+2020-03-31T17:01:20.773834+09:00	    9 Query	DESCRIBE wp_comments
+2020-03-31T17:01:20.774605+09:00	    9 Query	DESCRIBE wp_links
+2020-03-31T17:01:20.775553+09:00	    9 Query	DESCRIBE wp_options
+2020-03-31T17:01:20.777344+09:00	    9 Query	DESCRIBE wp_postmeta
+2020-03-31T17:01:20.778114+09:00	    9 Query	DESCRIBE wp_terms
+2020-03-31T17:01:20.778983+09:00	    9 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:01:20.779760+09:00	    9 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:01:20.780466+09:00	    9 Query	DESCRIBE wp_termmeta
+2020-03-31T17:01:20.781439+09:00	    9 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:01:20.790211+09:00	    9 Quit	
+2020-03-31T17:01:20.798416+09:00	   10 Connect	wordpress@172.21.0.3 on  using TCP/IP
+2020-03-31T17:01:20.799096+09:00	   10 Query	SET NAMES utf8mb4
+2020-03-31T17:01:20.800755+09:00	   10 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:01:20.801199+09:00	   10 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:01:20.801838+09:00	   10 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:01:20.802358+09:00	   10 Init DB	wordpress
+2020-03-31T17:01:20.803211+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:01:20.804623+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:01:20.805415+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:01:20.806016+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:01:20.806554+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:01:20.807135+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:01:20.807736+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:01:20.808272+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:01:20.808833+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:01:20.809841+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:01:20.810407+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:01:20.811482+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:01:20.812115+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:01:20.982310+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:20.983707+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:20.986894+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:01:20.988511+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:20.990962+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:20.995931+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:01:20.997941+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+2020-03-31T17:01:21.000128+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+2020-03-31T17:01:21.001693+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:01:21.012437+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.014755+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+2020-03-31T17:01:21.016092+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+2020-03-31T17:01:21.016923+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+2020-03-31T17:01:21.017831+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+2020-03-31T17:01:21.019986+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:01:21.022720+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:01:21.024446+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:01:21.025538+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:01:21.026274+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.027263+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.027991+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.028833+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.029634+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.030603+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.031321+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:01:21.032098+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:01:21.033456+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:01:21.034189+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:01:21.035070+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:01:21.037788+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:01:21.039365+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:01:21.040266+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:01:21.041044+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:01:21.041765+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:01:21.042509+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:01:21.043174+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:01:21.043736+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:01:21.044555+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+2020-03-31T17:01:21.045390+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:01:21.046108+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:01:21.046838+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:01:21.048219+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:01:21.049015+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+2020-03-31T17:01:21.108831+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:01:21.109936+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:01:21.110733+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:01:21.111506+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:01:21.112159+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:01:21.112754+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:01:21.113446+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:01:21.114622+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:01:21.115440+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:01:21.116392+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:01:21.117341+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:01:21.118116+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:01:21.119046+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:01:21.133389+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:01:21.307741+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:01:21.624375+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:01:21.625350+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:01:21.626105+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:01:21.627104+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.628097+09:00	   10 Query	SHOW TABLES LIKE 'wp\\_users'
+2020-03-31T17:01:21.631041+09:00	   10 Query	SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+2020-03-31T17:01:21.631992+09:00	   10 Query	SELECT option_name, option_value FROM wp_options
+2020-03-31T17:01:21.632914+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.633881+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.635658+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.637752+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:01:21.638819+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.639754+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.640553+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.641241+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.642006+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.642739+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.644686+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+2020-03-31T17:01:21.646170+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:01:21.648316+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:01:21.649217+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:01:21.650009+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:01:21.650711+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.653960+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.654774+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.655502+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:01:21.656213+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:01:21.656909+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:01:21.657674+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:01:21.658389+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:01:21.659049+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:01:21.659750+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+2020-03-31T17:01:21.660588+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:01:21.661717+09:00	   10 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T17:20:32.260508+09:00	    7 Connect	
+2020-03-31T17:20:32.262019+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T17:20:32.268732+09:00	    7 Quit	
+2020-03-31T17:20:48.526245+09:00	    8 Connect	wordpress@172.23.0.3 on  using TCP/IP
+2020-03-31T17:20:48.527525+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T17:20:48.531779+09:00	    8 Quit	
+2020-03-31T17:21:10.370240+09:00	    9 Connect	wordpress@172.23.0.3 on  using TCP/IP
+2020-03-31T17:21:10.370939+09:00	    9 Query	SET NAMES utf8mb4
+2020-03-31T17:21:10.373004+09:00	    9 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:21:10.373439+09:00	    9 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:21:10.373806+09:00	    9 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:21:10.374434+09:00	    9 Init DB	wordpress
+2020-03-31T17:21:10.391041+09:00	    9 Query	SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+2020-03-31T17:21:10.392610+09:00	    9 Query	SELECT option_name, option_value FROM wp_options
+2020-03-31T17:21:10.393171+09:00	    9 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:21:10.394304+09:00	    9 Query	DESCRIBE wp_users
+2020-03-31T17:21:10.394773+09:00	    9 Query	DESCRIBE wp_usermeta
+2020-03-31T17:21:10.395293+09:00	    9 Query	DESCRIBE wp_posts
+2020-03-31T17:21:10.395654+09:00	    9 Query	DESCRIBE wp_comments
+2020-03-31T17:21:10.396041+09:00	    9 Query	DESCRIBE wp_links
+2020-03-31T17:21:10.396431+09:00	    9 Query	DESCRIBE wp_options
+2020-03-31T17:21:10.396850+09:00	    9 Query	DESCRIBE wp_postmeta
+2020-03-31T17:21:10.397245+09:00	    9 Query	DESCRIBE wp_terms
+2020-03-31T17:21:10.397610+09:00	    9 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:21:10.398045+09:00	    9 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:21:10.398490+09:00	    9 Query	DESCRIBE wp_termmeta
+2020-03-31T17:21:10.399171+09:00	    9 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:21:10.410536+09:00	    9 Quit	
+2020-03-31T17:21:10.421071+09:00	   10 Connect	wordpress@172.23.0.3 on  using TCP/IP
+2020-03-31T17:21:10.421586+09:00	   10 Query	SET NAMES utf8mb4
+2020-03-31T17:21:10.422064+09:00	   10 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:21:10.422443+09:00	   10 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:21:10.422990+09:00	   10 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:21:10.423451+09:00	   10 Init DB	wordpress
+2020-03-31T17:21:10.424642+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:21:10.425956+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:21:10.426563+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:21:10.427057+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:21:10.427505+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:21:10.428051+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:21:10.428515+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:21:10.429026+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:21:10.429584+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:21:10.430106+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:21:10.430674+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:21:10.431274+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:21:10.431814+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:21:10.958198+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:10.959424+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:10.960179+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:21:10.961840+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:10.963026+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:10.967097+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:21:10.967773+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+2020-03-31T17:21:10.968380+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+2020-03-31T17:21:10.971698+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:21:11.021159+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.021949+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+2020-03-31T17:21:11.022605+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+2020-03-31T17:21:11.023132+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+2020-03-31T17:21:11.023644+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+2020-03-31T17:21:11.026383+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:21:11.028819+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:21:11.030299+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:21:11.031178+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:21:11.031756+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.032474+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.032969+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.033496+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.034056+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.034605+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.035120+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:21:11.035633+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:21:11.036099+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:21:11.036519+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:21:11.036982+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:21:11.037461+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:21:11.037974+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:21:11.038468+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:21:11.038958+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:21:11.039456+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:21:11.039982+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:21:11.040498+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:21:11.041026+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:21:11.041499+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+2020-03-31T17:21:11.042066+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:21:11.042577+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:21:11.043265+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:21:11.044497+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:21:11.046233+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+2020-03-31T17:21:11.173963+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:21:11.174955+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:21:11.176065+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:21:11.177104+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:21:11.177765+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:21:11.178458+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:21:11.179056+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:21:11.179655+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:21:11.180098+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:21:11.180661+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:21:11.181137+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:21:11.181614+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:21:11.182078+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:21:11.234300+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:21:11.452158+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:21:11.783295+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:21:11.784280+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:21:11.785478+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:21:11.786188+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.787399+09:00	   10 Query	SHOW TABLES LIKE 'wp\\_users'
+2020-03-31T17:21:11.795388+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.796833+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.797833+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.798404+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:21:11.798931+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.799473+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.800059+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.800704+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.801242+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.801845+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.802323+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+2020-03-31T17:21:11.802781+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:21:11.803195+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:21:11.803649+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:21:11.804127+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:21:11.804522+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.805011+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.805395+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.805899+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:21:11.806342+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:21:11.806818+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:21:11.807226+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:21:11.807689+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:21:11.808077+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:21:11.808525+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+2020-03-31T17:21:11.808932+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:21:11.809872+09:00	   10 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T17:26:00.671582+09:00	    7 Connect	
+2020-03-31T17:26:00.672154+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T17:26:00.677625+09:00	    7 Quit	
+2020-03-31T17:26:14.608354+09:00	    8 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T17:26:14.609429+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T17:26:14.613757+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T17:27:35.545876+09:00	    7 Connect	
+2020-03-31T17:27:35.546480+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T17:27:35.551821+09:00	    7 Quit	
+2020-03-31T17:27:38.111766+09:00	    8 Connect	wordpress@172.19.0.3 on  using TCP/IP
+2020-03-31T17:27:38.115591+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T17:27:38.126455+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.19 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-03-31T17:29:34.681683+09:00	    7 Connect	
+2020-03-31T17:29:34.683066+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-03-31T17:29:34.696155+09:00	    7 Quit	
+2020-03-31T17:29:37.165477+09:00	    8 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T17:29:37.166381+09:00	    8 Query	CREATE DATABASE IF NOT EXISTS `wordpress`
+2020-03-31T17:29:37.171746+09:00	    8 Quit	
+2020-03-31T17:29:46.621631+09:00	    9 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T17:29:46.622310+09:00	    9 Query	SET NAMES utf8mb4
+2020-03-31T17:29:46.624268+09:00	    9 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:29:46.624687+09:00	    9 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:29:46.625328+09:00	    9 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:29:46.625942+09:00	    9 Init DB	wordpress
+2020-03-31T17:29:46.640572+09:00	    9 Query	SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+2020-03-31T17:29:46.642278+09:00	    9 Query	SELECT option_name, option_value FROM wp_options
+2020-03-31T17:29:46.642876+09:00	    9 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:29:46.644188+09:00	    9 Query	DESCRIBE wp_users
+2020-03-31T17:29:46.644904+09:00	    9 Query	DESCRIBE wp_usermeta
+2020-03-31T17:29:46.645517+09:00	    9 Query	DESCRIBE wp_posts
+2020-03-31T17:29:46.646069+09:00	    9 Query	DESCRIBE wp_comments
+2020-03-31T17:29:46.646606+09:00	    9 Query	DESCRIBE wp_links
+2020-03-31T17:29:46.647044+09:00	    9 Query	DESCRIBE wp_options
+2020-03-31T17:29:46.647576+09:00	    9 Query	DESCRIBE wp_postmeta
+2020-03-31T17:29:46.648064+09:00	    9 Query	DESCRIBE wp_terms
+2020-03-31T17:29:46.648522+09:00	    9 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:29:46.649008+09:00	    9 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:29:46.649502+09:00	    9 Query	DESCRIBE wp_termmeta
+2020-03-31T17:29:46.649993+09:00	    9 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:29:46.662623+09:00	    9 Quit	
+2020-03-31T17:29:46.675617+09:00	   10 Connect	wordpress@172.18.0.3 on  using TCP/IP
+2020-03-31T17:29:46.676191+09:00	   10 Query	SET NAMES utf8mb4
+2020-03-31T17:29:46.676949+09:00	   10 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_520_ci'
+2020-03-31T17:29:46.677340+09:00	   10 Query	SELECT @@SESSION.sql_mode
+2020-03-31T17:29:46.677814+09:00	   10 Query	SET SESSION sql_mode='NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-03-31T17:29:46.678196+09:00	   10 Init DB	wordpress
+2020-03-31T17:29:46.679669+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:29:46.680792+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:29:46.681337+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:29:46.681821+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:29:46.682327+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:29:46.682809+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:29:46.683300+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:29:46.683884+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:29:46.684408+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:29:46.684859+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:29:46.685385+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:29:46.685866+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:29:46.686374+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:29:47.141751+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.142756+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.143285+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:29:47.144243+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.144679+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.148156+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:29:47.148947+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+2020-03-31T17:29:47.149454+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+2020-03-31T17:29:47.151670+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:29:47.190132+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.191073+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+2020-03-31T17:29:47.191673+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+2020-03-31T17:29:47.192178+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+2020-03-31T17:29:47.192743+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+2020-03-31T17:29:47.194952+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:29:47.195418+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+2020-03-31T17:29:47.195939+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:29:47.196422+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+2020-03-31T17:29:47.196949+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.197838+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.198602+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.199394+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.200090+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.200686+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.201142+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:29:47.201679+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:29:47.202108+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:29:47.202517+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:29:47.202985+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:29:47.203456+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:29:47.203860+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:29:47.204384+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:29:47.204892+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:29:47.205384+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:29:47.205799+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:29:47.206242+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:29:47.206625+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:29:47.207108+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+2020-03-31T17:29:47.207656+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:29:47.208185+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:29:47.208729+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:29:47.209278+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+2020-03-31T17:29:47.209852+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+2020-03-31T17:29:47.331053+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+2020-03-31T17:29:47.332026+09:00	   10 Query	DESCRIBE wp_users
+2020-03-31T17:29:47.332877+09:00	   10 Query	DESCRIBE wp_usermeta
+2020-03-31T17:29:47.333493+09:00	   10 Query	DESCRIBE wp_posts
+2020-03-31T17:29:47.334133+09:00	   10 Query	DESCRIBE wp_comments
+2020-03-31T17:29:47.334611+09:00	   10 Query	DESCRIBE wp_links
+2020-03-31T17:29:47.335071+09:00	   10 Query	DESCRIBE wp_options
+2020-03-31T17:29:47.335579+09:00	   10 Query	DESCRIBE wp_postmeta
+2020-03-31T17:29:47.336158+09:00	   10 Query	DESCRIBE wp_terms
+2020-03-31T17:29:47.336690+09:00	   10 Query	DESCRIBE wp_term_taxonomy
+2020-03-31T17:29:47.337080+09:00	   10 Query	DESCRIBE wp_term_relationships
+2020-03-31T17:29:47.337672+09:00	   10 Query	DESCRIBE wp_termmeta
+2020-03-31T17:29:47.338256+09:00	   10 Query	DESCRIBE wp_commentmeta
+2020-03-31T17:29:47.401057+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:29:47.600941+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:29:47.942138+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:29:47.943243+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+2020-03-31T17:29:47.944085+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+2020-03-31T17:29:47.944847+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.946294+09:00	   10 Query	SHOW TABLES LIKE 'wp\\_users'
+2020-03-31T17:29:47.956015+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.957143+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.958378+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.959421+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:29:47.960979+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.961762+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.962395+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.963299+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.964135+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.965304+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.966489+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+2020-03-31T17:29:47.967831+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:29:47.970123+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:29:47.970784+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:29:47.974523+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1
+2020-03-31T17:29:47.975234+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.975711+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.976142+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.976650+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+2020-03-31T17:29:47.977017+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+2020-03-31T17:29:47.977524+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+2020-03-31T17:29:47.978001+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+2020-03-31T17:29:47.978573+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+2020-03-31T17:29:47.979167+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:29:47.979798+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+2020-03-31T17:29:47.980313+09:00	   10 Query	SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+2020-03-31T17:29:47.981464+09:00	   10 Quit	
