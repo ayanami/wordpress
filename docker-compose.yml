@@ -1,36 +1,36 @@
 version: "3.6"
 services:
-    app:
+    wp_app:
         build:
             context: ./docker/php
             args:
                 - HTTP_PROXY=${PROXY}
                 - HTTPS_PROXY=${PROXY}
         depends_on:
-            - db
+            - wp_db
         volumes:
             - ./docker/php/php.ini:/usr/local/etc/php/php.ini
             - ./src:/var/www/html
         working_dir: /var/www/html
         environment:
-            - WORDPRESS_DB_HOST=db:3306
+            - WORDPRESS_DB_HOST=wp_db:3306
             - WORDPRESS_DB_NAME=${DB_NAME}
             - WORDPRESS_DB_USER=${DB_USER}
             - WORDPRESS_DB_PASSWORD=${DB_PASS}
             - HTTP_PROXY=${PROXY}
             - HTTPS_PROXY=${PROXY}
             - TZ=${TZ}
-    web:
+    wp_web:
         image: nginx:1.17-alpine
         depends_on:
-            - app
+            - wp_app
         ports:
             - 20080:80
         volumes:
             - ./logs:/var/log/nginx
             - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
             - ./src:/var/www/html
-    db:
+    wp_db:
         image: mysql:8.0
         ports:
             - 23306:3306
